@@ -45,4 +45,41 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+/* changes */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  margin: 10px;
+}
+
+.notifications {
+  margin: 10px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  padding-left: 10px;
 }
